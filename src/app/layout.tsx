@@ -17,7 +17,12 @@ export const metadata: Metadata = {
     'Suruli Falls Cleaning',
     'Bala Muthazhagu Group',
   ],
-  authors: [{ name: 'PLA. Jeganath Mishra MLA Office' }],
+  authors: [
+    { name: 'PLA. Jeganath Mishra MLA Office' },
+    { name: 'THENIJOBS', url: 'https://www.thenijobs.com/' },
+  ],
+  creator: 'THENIJOBS',
+  publisher: 'PLA. Jeganath Mishra MLA Office',
   metadataBase: new URL('https://www.jeganathmishra.com'),
   openGraph: {
     title: 'PLA. Jeganath Mishra MLA | Cumbum Constituency | TVK',

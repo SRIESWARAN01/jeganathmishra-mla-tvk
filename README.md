@@ -67,10 +67,14 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 └── package.json
 ```
 
-## 🛠️ Created By
+## 🛠️ Website Development
 
-**Anbarasan Suruliraj** — Original Design & Development
+Designed & Developed by **THENIJOBS**
+
+- **Developer**: THENIJOBS
+- **Website**: [https://www.thenijobs.com/](https://www.thenijobs.com/)
+- **Specialization**: Modern Web Application Design & Engineering
 
 ---
 
-*This is not a government website. All content is provided for public interest.*
+*This is the official representative portal for PLA. Jeganath Mishra MLA. All content is provided for public interest.*

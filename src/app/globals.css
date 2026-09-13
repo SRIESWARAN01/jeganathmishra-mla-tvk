@@ -1641,6 +1641,127 @@ img {
   color: #6b7280;
 }
 
+.footer-copyright-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer-rights-text {
+  color: #9ca3af;
+  font-size: 0.82rem;
+  font-weight: 400;
+}
+
+.footer-dev-credit {
+  font-size: 0.78rem;
+  color: #6b7280;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.thenijobs-link {
+  color: #9ca3af;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.thenijobs-link:hover {
+  color: var(--party-gold);
+  border-bottom-color: var(--party-gold);
+}
+
+.footer-bottom-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* Premium Developer Badge */
+.thenijobs-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+  padding: 5px 13px 5px 10px;
+  font-size: 0.76rem;
+  color: #d1d5db;
+  text-decoration: none;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              background 0.25s ease,
+              border-color 0.25s ease,
+              box-shadow 0.25s ease,
+              color 0.25s ease;
+}
+
+.thenijobs-badge-icon {
+  font-size: 0.82rem;
+  line-height: 1;
+  color: #f5b014;
+  transition: transform 0.25s ease;
+}
+
+.thenijobs-badge-text {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.2s ease;
+}
+
+.thenijobs-brand {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.thenijobs-badge:hover {
+  transform: scale(1.03);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(245, 176, 20, 0.4);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35), 0 0 10px rgba(245, 176, 20, 0.15);
+}
+
+.thenijobs-badge:hover .thenijobs-badge-text {
+  border-bottom: 1px solid rgba(245, 176, 20, 0.6);
+}
+
+.thenijobs-badge:hover .thenijobs-badge-icon {
+  transform: scale(1.15);
+}
+
+.footer-domain-link {
+  color: #f5b014;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.footer-domain-link:hover {
+  opacity: 0.85;
+  text-decoration: underline;
+}
+
+.footer-disclaimer {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  text-align: center;
+  font-size: 0.72rem;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
 /* =========================================================
    RESPONSIVE DESIGN BREAKPOINTS: TABLET & MOBILE
    ========================================================= */
@@ -1851,7 +1972,30 @@ img {
 
   .footer-bottom-bar {
     flex-direction: column;
+    align-items: center;
     text-align: center;
+    gap: 14px;
+  }
+
+  .footer-copyright-block {
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+  }
+
+  .footer-dev-credit {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-bottom-actions {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .thenijobs-badge {
+    margin: 2px auto 0;
   }
 
   .floating-actions {

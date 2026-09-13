@@ -214,8 +214,12 @@ export const siteContent = {
       dailyAnnadhanam: "Daily Annadhanam served for all visiting citizens and travelers.",
     },
     footer: {
-      rights: "Copyright © 2026 Vedha Digital Marketing. All Rights Reserved.",
+      rights: "© 2026 PLA. Jeganath Mishra. All Rights Reserved.",
       constituencyTag: "Official Representative Website • Cumbum Constituency (AC 198) • Theni District",
+      designedBy: "Designed & Developed by",
+      developerName: "THENIJOBS",
+      developerUrl: "https://www.thenijobs.com/",
+      badgeText: "Developed by THENIJOBS",
     },
   },
   ta: {
@@ -413,8 +417,12 @@ export const siteContent = {
       dailyAnnadhanam: "வருகை தரும் அனைவருக்கும் நாள்தோறும் மதிய அன்னதானம் வழங்கப்படுகிறது.",
     },
     footer: {
-      rights: "பதிப்புரிமை © 2026 வேதா டிஜிட்டல் மார்க்கெட்டிங். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
+      rights: "© 2026 பி.எல்.ஏ. ஜெகநாத் மிஸ்ரா. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
       constituencyTag: "அதிகாரப்பூர்வ சட்டமன்ற உறுப்பினர் தளம் • கம்பம் தொகுதி (எண் 198) • தேனி மாவட்டம்",
+      designedBy: "Designed & Developed by",
+      developerName: "THENIJOBS",
+      developerUrl: "https://www.thenijobs.com/",
+      badgeText: "Developed by THENIJOBS",
     },
   },
 };

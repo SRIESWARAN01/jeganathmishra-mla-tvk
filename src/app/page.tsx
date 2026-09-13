@@ -974,33 +974,52 @@ export default function HomePage() {
           </div>
 
           <div className="footer-bottom-bar">
-            <div>{t.footer.rights}</div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
-              <a href="https://www.jeganathmishra.com" target="_blank" rel="noopener noreferrer" style={{ color: '#f5b014' }}>
+            <div className="footer-copyright-block">
+              <span className="footer-rights-text">{t.footer.rights}</span>
+              <span className="footer-dev-credit">
+                Designed &amp; Developed by{' '}
+                <a
+                  href="https://www.thenijobs.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="thenijobs-link"
+                >
+                  THENIJOBS
+                </a>
+              </span>
+            </div>
+
+            <div className="footer-bottom-actions">
+              <a
+                href="https://www.thenijobs.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="thenijobs-badge"
+                title="THENIJOBS — Website Design & Engineering"
+              >
+                <span className="thenijobs-badge-icon">⚡</span>
+                <span className="thenijobs-badge-text">
+                  Developed by <strong className="thenijobs-brand">THENIJOBS</strong>
+                </span>
+              </a>
+
+              <a
+                href="https://www.jeganathmishra.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-domain-link"
+              >
                 www.jeganathmishra.com
               </a>
             </div>
           </div>
 
-          {/* Original Content Credit & Disclaimer */}
-          <div style={{ 
-            marginTop: '20px', 
-            padding: '16px 0', 
-            borderTop: '1px solid rgba(255,255,255,0.08)', 
-            textAlign: 'center',
-            fontSize: '0.76rem',
-            color: '#6b7280',
-            lineHeight: 1.6
-          }}>
-            <p style={{ marginBottom: '6px' }}>
+          {/* Public Interest & Authorization Notice */}
+          <div className="footer-disclaimer">
+            <p>
               {lang === 'ta' 
-                ? '🛠️ இந்த இணையதளம் வடிவமைத்து உருவாக்கியவர்: அன்பரசன் சுருளிராஜ் (Anbarasan Suruliraj) — முழு சொந்த படைப்பு (Original Creation).'
-                : '🛠️ Designed & Developed by Anbarasan Suruliraj — An Original Creation.'}
-            </p>
-            <p style={{ fontSize: '0.7rem', color: '#4b5563' }}>
-              {lang === 'ta' 
-                ? 'இந்த இணையதளத்தில் உள்ள அனைத்து உள்ளடக்கங்களும் பொதுமக்கள் நலன் கருதி வழங்கப்படுகின்றன. TVK கழகத்தின் சின்னங்கள் மற்றும் கொடி அதிகாரப்பூர்வ உரிமையின்படி பயன்படுத்தப்படுகின்றன.'
-                : 'All content on this website is provided for public interest. TVK party symbols and flag are used under official party authorization. This is not a government website.'}
+                ? 'இந்த இணையதளத்தில் உள்ள அனைத்து உள்ளடக்கங்களும் பொதுமக்கள் நலன் கருதி வழங்கப்படுகின்றன. TVK கழகத்தின் சின்னங்கள் மற்றும் கொடி அதிகாரப்பூர்வ வழிகாட்டுதலின்படி பயன்படுத்தப்படுகின்றன. இது அரசு தளம் அல்ல.'
+                : 'All content on this website is provided for public interest and constituent service. TVK party symbols and emblem are used under official party authorization. This is not a government website.'}
             </p>
           </div>
         </div>

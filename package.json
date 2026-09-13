@@ -2,6 +2,10 @@
   "name": "jeganathmishra-mla-tvk",
   "version": "1.0.0",
   "private": true,
+  "author": {
+    "name": "THENIJOBS",
+    "url": "https://www.thenijobs.com/"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
